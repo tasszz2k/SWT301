@@ -23,7 +23,8 @@ public class NewsModel {
     private String description;
 
     public NewsModel() {
-    }
+	System.out.println("This made by me");
+	} 
 
     public NewsModel(int id, String title, String content, Timestamp date, String writer) {
         this.id = id;

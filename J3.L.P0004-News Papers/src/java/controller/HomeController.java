@@ -78,6 +78,7 @@ public class HomeController extends HttpServlet {
                 }
             }
 
+            //Set attribute and redirect to home page
             request.setAttribute("listRecentNews", listRecentNews);
             request.setAttribute("mostRecentNews", mostRecentNews);
             request.setAttribute("currentNews", currentNews);
